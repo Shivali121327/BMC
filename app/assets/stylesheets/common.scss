@@ -26,13 +26,20 @@ footer {
     }
   }
 
-  #user_details {
+  #user_details, #bmc_details {
     position: absolute;
-    right: 0;
     bottom: 50px;
     background-color: $darker-bg-color;
     color: $light-font-color;
     padding: 15px 40px;
+  }
+  
+  #user_details {
+    right: 15px;
+  }
+
+  #bmc_details {
+    left: 15px;
   }
 }
 
