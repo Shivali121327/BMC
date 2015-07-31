@@ -1,3 +1,42 @@
+footer {
+  background-color: $dark-bg-color;
+  color: $light-font-color;
+  height: 50px;
+  padding: 0px 15px;
+  box-sizing: border-box;
+
+  img {
+    height: 36px;
+    border: 2px solid $light-font-color;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      height: 40px;
+      border-width: 0;
+    }
+  }
+
+  #profile-pic-container, #brand-pic-container {
+    background-color: $dark-bg-color;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease-in;
+
+    &:hover, &.active {
+      background-color: $darker-bg-color;
+    }
+  }
+
+  #user_details {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    background-color: $darker-bg-color;
+    color: $light-font-color;
+    padding: 15px 40px;
+  }
+}
+
+
 .vcenter {
   position: relative;
   top: 50%;
