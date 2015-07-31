@@ -9,6 +9,11 @@
 </head>
 <body>
 
+  <div class="flash_messages">
+    <%= flash_tag(notice, "notice") %>
+    <%= flash_tag(alert, "alert") %>
+  </div>
+
 <%= yield %>
 
 </body>
